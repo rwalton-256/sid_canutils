@@ -1,3 +1,12 @@
+/**
+ * @file sid_canutils.hpp
+ * @author Ryan Walton
+ * @brief 
+ * @date 2021-08-08
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #pragma once
 
 #include <string>
