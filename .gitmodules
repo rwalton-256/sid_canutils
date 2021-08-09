@@ -1,0 +1,3 @@
+[submodule "lib/socketcan_wrapper_cpp"]
+	path = lib/socketcan_wrapper_cpp
+	url = git@github.com:rwalton-256/socketcan_wrapper_cpp.git
