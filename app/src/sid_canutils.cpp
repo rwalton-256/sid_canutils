@@ -12,7 +12,7 @@
 #include <iostream>
 
 #include <socketcan_wrapper/can_debug.hpp>
-#include <udoo_canutils/sid_canutils.hpp>
+#include <sid_canutils/sid_canutils.hpp>
 
 union text_order_byte_t
 {

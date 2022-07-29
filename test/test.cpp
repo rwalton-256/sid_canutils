@@ -4,7 +4,7 @@
 #include <chrono>
 #include <thread>
 
-#include <udoo_canutils/sid_canutils.hpp>
+#include <sid_canutils/sid_canutils.hpp>
 
 int main( int argc, char** argv )
 {
