@@ -28,8 +28,8 @@ private:
     void _mSendTextSpa( std::string _aUpperMsg, std::string _aLowerMsg );
     void _mTextFunc();
 public:
-    SID_Interface( const std::string& _aIfaceName, float _mTimeoutSec = -1.0F )
-        : _mCanWrapper( _aIfaceName, _mTimeoutSec ),
+    SID_Interface( const std::string& _aIfaceName, std::chrono::duration<double> _aTimeout = std::chrono::duration<double>::max() )
+        : _mCanWrapper( _aIfaceName, _aTimeout ),
           _mUpperStr( "            " ),
           _mLowerStr( "            " ),
           _mActive( true ),
